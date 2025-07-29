@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentinel Peak Solutions - Updated with Brand Colors</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --primary: 180 50% 35%;
+            --primary-foreground: 0 0% 98%;
+            --secondary: 240 4.8% 95.9%;
+            --secondary-foreground: 240 5.9% 10%;
+            --accent: 180 45% 40%;
+            --background: 0 0% 100%;
+            --foreground: 240 10% 3.9%;
+            --muted: 240 4.8% 95.9%;
+            --muted-foreground: 240 3.8% 46.1%;
+        }
+        
+        .bg-primary { background-color: hsl(var(--primary)); }
+        .text-primary-foreground { color: hsl(var(--primary-foreground)); }
+        .bg-secondary { background-color: hsl(var(--secondary)); }
+        .text-foreground { color: hsl(var(--foreground)); }
+        .text-muted-foreground { color: hsl(var(--muted-foreground)); }
+        .border-primary { border-color: hsl(var(--primary)); }
+        .hover\:bg-primary\/90:hover { background-color: hsl(180 50% 35% / 0.9); }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <nav class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold text-foreground">
+                    Sentinel Peak Solutions
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-foreground hover:text-primary">Home</a>
+                    <a href="#" class="text-foreground hover:text-primary">Services</a>
+                    <a href="#" class="text-foreground hover:text-primary">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Teal Background -->
+    <section class="bg-primary py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-primary-foreground mb-6">
+                Transform Your Digital Presence
+            </h1>
+            <p class="text-xl text-primary-foreground mb-10 max-w-2xl mx-auto">
+                Professional web design, strategic social media management, and comprehensive reputation services 
+                that drive real business growth. Your success is our mission.
+            </p>
+            <button class="bg-white text-primary px-8 py-3 rounded-md font-semibold hover:bg-gray-50 transition-colors">
+                Get Started Today
+            </button>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 bg-secondary">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-3xl font-bold text-foreground">70%</div>
+                    <div class="text-sm text-muted-foreground">Customers lost without professional website</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-foreground">60%</div>
+                    <div class="text-sm text-muted-foreground">Leads never get proper follow-up</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-foreground">+40%</div>
+                    <div class="text-sm text-muted-foreground">Average revenue increase</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-foreground">7-14</div>
+                    <div class="text-sm text-muted-foreground">Days standard delivery</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                    Complete Digital Solutions
+                </h2>
+                <p class="text-lg text-muted-foreground max-w-2xl mx-auto">
+                    Everything you need to establish, grow, and protect your digital presence in one comprehensive package.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Web Design Service -->
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+                    <h3 class="text-xl font-semibold text-foreground mb-4">Web Design</h3>
+                    <p class="text-muted-foreground mb-6">Professional websites that convert visitors into customers with modern design and seamless user experience.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-lg font-semibold text-foreground">Starting at $1,000</span>
+                        <button class="text-primary hover:text-primary font-medium">Learn More →</button>
+                    </div>
+                </div>
+
+                <!-- Social Media Service -->
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+                    <h3 class="text-xl font-semibold text-foreground mb-4">Social Media Management</h3>
+                    <p class="text-muted-foreground mb-6">Strategic content creation and community management to build your brand and engage your audience.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-lg font-semibold text-foreground">$399/month</span>
+                        <button class="text-primary hover:text-primary font-medium">Learn More →</button>
+                    </div>
+                </div>
+
+                <!-- Reputation Management Service -->
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+                    <h3 class="text-xl font-semibold text-foreground mb-4">Reputation Management</h3>
+                    <p class="text-muted-foreground mb-6">Protect and enhance your online reputation with proactive monitoring and response strategies.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-lg font-semibold text-foreground">Part of CRM package</span>
+                        <button class="text-primary hover:text-primary font-medium">Learn More →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bundle Pricing CTA with Teal Background -->
+    <section class="py-20 bg-primary">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
+                Growth Platform Bundle
+            </h2>
+            <p class="text-lg text-primary-foreground mb-8 max-w-2xl mx-auto">
+                Get all our services in one comprehensive package and save $249/month compared to individual pricing.
+            </p>
+            <div class="mb-8">
+                <div class="inline-flex items-center space-x-4">
+                    <span class="text-2xl font-bold text-primary-foreground">$399/month</span>
+                    <span class="text-lg text-primary-foreground line-through opacity-70">$648/month</span>
+                    <span class="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                        Save $249/month
+                    </span>
+                </div>
+            </div>
+            <button class="bg-white text-primary px-8 py-3 rounded-md font-semibold hover:bg-gray-50 transition-colors">
+                Start Your Transformation
+            </button>
+            <p class="mt-4 text-sm text-primary-foreground opacity-80">
+                50% upfront, 50% after completion • 20% off if we&apos;re late on delivery
+            </p>
+        </div>
+    </section>
+
+    <!-- Color Comparison Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Brand Color Updates Applied</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="text-center">
+                    <h3 class="text-xl font-semibold mb-4">BEFORE (Grayscale)</h3>
+                    <div class="bg-gray-800 text-white p-8 rounded-lg mb-4">
+                        <div class="text-lg font-semibold">Primary Color: Dark Gray</div>
+                        <div class="mt-2 text-sm opacity-75">HSL(240, 5.9%, 10%)</div>
+                    </div>
+                    <div class="bg-gray-800 text-white px-6 py-3 rounded">Old Button Style</div>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-xl font-semibold mb-4">AFTER (Brand Teal)</h3>
+                    <div class="bg-primary text-primary-foreground p-8 rounded-lg mb-4">
+                        <div class="text-lg font-semibold">Primary Color: Sentinel Teal</div>
+                        <div class="mt-2 text-sm opacity-75">HSL(180, 50%, 35%)</div>
+                    </div>
+                    <div class="bg-primary text-primary-foreground px-6 py-3 rounded">New Brand Button</div>
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <p class="text-muted-foreground">
+                    ✅ Colors extracted from your Sentinel Peak logo<br>
+                    ✅ Applied to buttons, hero sections, and call-to-actions<br>
+                    ✅ Consistent brand identity throughout the site
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

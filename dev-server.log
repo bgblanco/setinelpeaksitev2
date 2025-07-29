@@ -1,0 +1,21 @@
+$ next dev --turbopack
+ ⚠ Warning: Found multiple lockfiles. Selecting /Users/bg/claude-example/bun.lock.
+   Consider removing the lockfiles at:
+   * /Users/bg/claude-example/sentinel-website/claude-agents/bun.lock
+   * /Users/bg/claude-example/sentinel-website/bun.lock
+
+   ▲ Next.js 15.4.4 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://10.100.34.251:3000
+   - Experiments (use with caution):
+     · turbo
+
+ ✓ Starting...
+ ⚠ The config property `experimental.turbo` is deprecated. Move this setting to `config.turbopack` as Turbopack is now stable.
+ ✓ Ready in 1438ms
+ ○ Compiling /services ...
+ ✓ Compiled /services in 3.2s
+ GET /services 200 in 3747ms
+ ✓ Compiled /contact in 400ms
+ GET /contact 200 in 556ms
+[?25h
